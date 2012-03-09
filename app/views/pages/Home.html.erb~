@@ -1,0 +1,21 @@
+  <div class="container">
+    <div class="hero-unit" style="margin-right: 70px; margin-left: 70px;"> 
+      <h1> PICS HERE! <br/>  <br/> </h1>
+
+    </div>
+     <div class="row" style="margin-right: 70px; margin-left: 70px;">
+        <div class="span8" style="padding-left: 0px;">
+          <h2>Refrigeration & Air Conditioning Repair</h2>
+          <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+        <div class="span5">
+          <h2>Contact</h2>
+           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+       </div>
+      </div>
+      <footer>
+        <p>&copy; Kodiak Mechanical, License# 945588 </p>
+      </footer>
+  </div>
+</body>
+</html>

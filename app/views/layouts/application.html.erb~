@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kodiak Mechanical - Air Conditioning & Refrigeration Repair</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body style="padding-top: 60px">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="container">
+        <h3><%= link_to "Kodiak Mechanical", "/" %></h3>
+	<%= image_tag("bear_claw5.gif", :alt => "logo", style: 'padding-top: 3px; margin-left: -10px;') %>
+        <ul class="nav" style="float: right; margin-right: 70px;">
+          <li style="margin-right: 10px;"><%= link_to "Home", "/pages/Home"  %></li>
+          <li style="margin-right: 10px;"><%= link_to "Contact", "/pages/Contact"  %></li>
+          <li style="margin-right: 10px;"><%= link_to "About Us", "/pages/About_Us"  %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <%= yield %>
+</body>
+</html>
