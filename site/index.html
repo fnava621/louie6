@@ -1,89 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kodiak Mechanical | Air Conditioning & Refrigeration Repair</title>
-  <link rel="stylesheet" href="/assets/application.css">
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-30353288-1']);
-  _gaq.push(['_setDomainName', 'kodiakmechanical.biz']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</head>
-<body style="padding-top: 60px">
-  <div class="topbar">
-    <div class="topbar-inner">
-      <div class="container">
-        <h3><a href="/">Kodiak Mechanical, Inc.</a></h3>
-	<img src="/assets/bear_claw5.gif" alt="Kodiak Mechanical" style="padding-top: 3px; margin-left: -10px;">
-        <ul class="nav" style="float: right; margin-right: 70px;">
-          <li style="margin-right: 10px;"><a href="/">Home</a></li>
-          <li style="margin-right: 10px;"><a href="/Contact">Contact</a></li>
-          <li style="margin-right: 10px;"><a href="/AboutUs">Services</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="hero-unit" style="margin-right: 100px; background: #fff; margin-left: 120px; padding: 10px;">
-
-<div id="carousel" class="carousel">
-
-  <div class="carousel-inner">
-
-         <div class="item">
-
-	  <img src="/assets/louie3.gif" alt="kodiak mechanical" style="width: 650px; height: 300px; position: relative; left: 12px;" />
-	</div>
-
-	 <div class="item active">
-	  <img src="/assets/LOU22h.gif" alt="kodiak mechanical" style="width: 650px; height: 300px; position: relative; left: 12px;" />
-	</div>
-
-        <div class="item">
-	   <img src="/assets/louie1.gif" alt="kodiak mechanical" style="width: 650px; height: 300px; position: relative; left: 12px;" />
-	</div>
-
-	        <div class="item">
-	   <img src="/assets/louie4.gif" alt="kodiak mechanical" style="width: 650px; height: 300px; position: relative; left: 12px;" />
-	</div>
-
-   </div>
-
-  <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
-
-</div>
-
-</div>
-     <div class="row" style="margin-right: 80px; margin-left: 120px;">
-        <div class="span8" style="padding-left: 0px;">
-          <h2>Refrigeration & Air Conditioning</h2>
-          <p> We are a family owned business with over 20 years of experience. We specialize in Commercial Refrigeration and HVAC  (Supermarkets, Pharmaceutical Plants, Food Processing Plants, Food Warehouses). We service Golf Courses, Restaurants Refrigeration equipment and HVAC. As well as Residential Refrigeration and HVAC. Our technicians provide superior services throughout Los Angeles and Orange County Areas.
-	  <br><br>
-	  <b>Kodiak Mechanical, Inc.</b> specializes in Repairs, Installation and Maintenance of Refrigeration and HVAC systems. No matter how large or small your business or residence, we have the right solution.</p>
-        </div>
-        <div class="span4">
-          <h2>Contact</h2>
-           <p style="color: blue;">Phone: (310) 707 - 5713 <br> Fax: (310) 522 - 4262<br> Email: kodiakmechanical@gmail.com <br> Available: 24/7/365 <br><br> P.O. Box # 941 <br> Lomita, CA 90717</p><br>
-	   <img src="/assets/bbb.jpg" alt="kodiak mechanical" style="width: 150px; height: 100px; position: relative; left: 12px;" />
-       </div>
-     </div>
-      <footer>
-        <p>&copy; Kodiak Mechanical, Inc. - License# 945588 </p>
-      </footer>
-  </div>
-  <script src="/assets/application.js"></script>
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    $('.carousel').carousel({ interval: 2000 });
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['InterVariable', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    html { font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11', 'ss01', 'ss03'; }
+  </style>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30353288-1']);
+    _gaq.push(['_setDomainName', 'kodiakmechanical.biz']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body class="antialiased bg-white text-zinc-900">
+
+  <!-- Nav -->
+  <nav class="fixed top-0 w-full z-50 bg-black">
+    <div class="mx-auto max-w-6xl px-6 flex items-center justify-between h-14">
+      <div class="flex items-center gap-3">
+        <a href="/" aria-label="Homepage">
+          <img src="/assets/bear_claw5.gif" alt="" class="h-8">
+        </a>
+        <a href="/" class="text-white text-lg font-semibold tracking-tight hover:text-zinc-300">Kodiak Mechanical, Inc.</a>
+      </div>
+      <ul class="max-lg:hidden flex gap-8" role="list">
+        <li><a href="/" class="text-white hover:text-zinc-300">Home</a></li>
+        <li><a href="/Contact" class="text-white hover:text-zinc-300">Contact</a></li>
+        <li><a href="/AboutUs" class="text-white hover:text-zinc-300">Services</a></li>
+      </ul>
+      <button class="lg:hidden text-white" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" aria-label="Open menu">
+        <svg class="size-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden lg:hidden bg-black px-6 pb-4">
+      <ul class="flex flex-col gap-3" role="list">
+        <li><a href="/" class="text-white hover:text-zinc-300">Home</a></li>
+        <li><a href="/Contact" class="text-white hover:text-zinc-300">Contact</a></li>
+        <li><a href="/AboutUs" class="text-white hover:text-zinc-300">Services</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="isolate">
+    <main class="pt-14">
+
+      <!-- Carousel -->
+      <div class="relative overflow-hidden bg-black" id="carousel">
+        <div class="flex transition-transform duration-500 ease-in-out" id="carousel-track">
+          <img src="/assets/LOU22h.gif" alt="" class="w-full shrink-0 object-cover h-64 sm:h-80 md:h-96">
+          <img src="/assets/louie3.gif" alt="" class="w-full shrink-0 object-cover h-64 sm:h-80 md:h-96">
+          <img src="/assets/louie1.gif" alt="" class="w-full shrink-0 object-cover h-64 sm:h-80 md:h-96">
+          <img src="/assets/louie4.gif" alt="" class="w-full shrink-0 object-cover h-64 sm:h-80 md:h-96">
+        </div>
+        <button onclick="carouselPrev()" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white size-10 rounded-full text-xl hover:bg-black/70 transition-colors" aria-label="Previous slide">&lsaquo;</button>
+        <button onclick="carouselNext()" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white size-10 rounded-full text-xl hover:bg-black/70 transition-colors" aria-label="Next slide">&rsaquo;</button>
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2" id="carousel-dots"></div>
+      </div>
+
+      <!-- About + Contact -->
+      <div class="py-16 sm:py-20">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="grid lg:grid-cols-3 gap-12">
+            <div class="lg:col-span-2">
+              <h2 class="text-3xl font-semibold tracking-tight text-balance text-zinc-900">Refrigeration &amp; Air Conditioning</h2>
+              <p class="mt-6 text-lg text-pretty text-zinc-600 max-w-[48ch]">
+                We are a family owned business with over 20 years of experience. We specialize in Commercial Refrigeration and HVAC&mdash;Supermarkets, Pharmaceutical Plants, Food Processing Plants, and Food Warehouses. We service Golf Courses, Restaurants Refrigeration equipment and HVAC, as well as Residential Refrigeration and HVAC.
+              </p>
+              <p class="mt-4 text-lg text-pretty text-zinc-600 max-w-[48ch]">
+                Our technicians provide superior services throughout Los Angeles and Orange County Areas.
+              </p>
+              <p class="mt-4 text-lg text-pretty text-zinc-600 max-w-[48ch]">
+                <strong class="text-zinc-900">Kodiak Mechanical, Inc.</strong> specializes in Repairs, Installation and Maintenance of Refrigeration and HVAC systems. No matter how large or small your business or residence, we have the right solution.
+              </p>
+            </div>
+            <div class="rounded-xl border border-zinc-950/10 p-6">
+              <h2 class="text-xl font-semibold tracking-tight text-zinc-900">Contact Us</h2>
+              <dl class="mt-4 text-zinc-600 space-y-2">
+                <div>
+                  <dt class="sr-only">Phone</dt>
+                  <dd class="tabular-nums">Phone: (310) 707-5713</dd>
+                </div>
+                <div>
+                  <dt class="sr-only">Fax</dt>
+                  <dd class="tabular-nums">Fax: (310) 522-4262</dd>
+                </div>
+                <div>
+                  <dt class="sr-only">Email</dt>
+                  <dd>Email: kodiakmechanical@gmail.com</dd>
+                </div>
+                <div>
+                  <dt class="sr-only">Availability</dt>
+                  <dd class="font-semibold text-zinc-900">Available: 24/7/365</dd>
+                </div>
+                <div class="pt-2">
+                  <dt class="sr-only">Address</dt>
+                  <dd>P.O. Box #941<br>Lomita, CA 90717</dd>
+                </div>
+              </dl>
+              <img src="/assets/bbb.jpg" alt="BBB Accredited Business" class="mt-6 w-32 outline-1 -outline-offset-1 outline-black/5 rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="border-t border-zinc-950/5 py-6">
+      <div class="mx-auto max-w-6xl px-6">
+        <p class="text-sm text-zinc-500">&copy; Kodiak Mechanical, Inc. &mdash; License #945588</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    var currentSlide = 0;
+    var track = document.getElementById('carousel-track');
+    var total = track.children.length;
+    var dotsContainer = document.getElementById('carousel-dots');
+    var autoTimer;
+
+    for (var i = 0; i < total; i++) {
+      var dot = document.createElement('button');
+      dot.className = 'size-2 rounded-full transition-colors';
+      dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+      dot.dataset.index = i;
+      dot.onclick = function() { carouselTo(Number(this.dataset.index)); };
+      dotsContainer.appendChild(dot);
+    }
+    updateDots();
+
+    function carouselTo(i) {
+      currentSlide = ((i % total) + total) % total;
+      track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+      updateDots();
+      resetTimer();
+    }
+    function carouselNext() { carouselTo(currentSlide + 1); }
+    function carouselPrev() { carouselTo(currentSlide - 1); }
+    function updateDots() {
+      var dots = dotsContainer.children;
+      for (var j = 0; j < dots.length; j++) {
+        dots[j].className = j === currentSlide
+          ? 'size-2 rounded-full bg-white transition-colors'
+          : 'size-2 rounded-full bg-white/40 transition-colors';
+      }
+    }
+    function resetTimer() {
+      clearInterval(autoTimer);
+      autoTimer = setInterval(carouselNext, 4000);
+    }
+    resetTimer();
   </script>
 </body>
 </html>
